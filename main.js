@@ -1,15 +1,19 @@
 const $ = document.querySelector.bind(document)
-const $$ = document.querySelectorAll.bind(document)
 
 var btnYes = $('.btn--yes')
 var btnNo = $('.btn--no')
-
 var popup = $('.modal')
 var overlay = $('.modal__overlay')
 var btnClose = $('.btn-close')
 
 window.onload = () => {
-    alert('Xin Chào ! Cậu đã sẵn sàng chưa ?')
+    $('.music').play()
+}
+
+window.onkeypress = (e) => {
+    if (e.charCode === 32) {
+        $('.music').play()
+    }
 }
 
 btnYes.onclick = () => {
@@ -25,10 +29,12 @@ overlay.onclick = () => {
 }
 
 btnNo.onmouseover = (e) => {
-    console.log(e)
+    // console.log(e)
     var x = Math.floor(Math.random() * e.relatedTarget.clientHeight)
     var y = Math.floor(Math.random() * e.relatedTarget.clientWidth)
 
     btnNo.style.top = x + "px"
     btnNo.style.left = y + "px"
 }
+
+
