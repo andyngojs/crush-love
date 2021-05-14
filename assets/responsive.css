@@ -1,0 +1,91 @@
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) { 
+    .container {
+        height: auto;
+        overflow-x: hidden;
+    }
+    .header {
+        height: 150px
+    }
+    .header-name {
+        font-size: 3.4rem;
+    }
+    .content {
+        height: 66rem;
+    }
+    .music-control {
+        opacity: .1;
+    }
+    .btn--yes {
+        position: absolute;
+        top: 198px;
+        left: 60px;
+    }
+    .btn--no {
+        position: absolute;
+        top: 198px;
+        right: 70px;
+        opacity: .4;
+    }
+    .footer {
+        overflow: hidden;
+        /* height: 19rem; */
+        padding: 10px 0;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) { 
+    .header {
+        height: 100%;
+    }
+    .header-name {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .header-description {
+        font-size: 2rem;
+        line-height: 3.7rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+    .music-control {
+        opacity: .1;
+    }
+    .answer-question {
+        display: flex;
+        justify-content: center;
+    }
+    .btn--yes {
+        position: absolute;
+        width: var(--width-btn);
+        left: 20px;
+        top: 100px
+    }
+    .btn--no {
+        width: var(--width-btn);
+        position: absolute;
+        top: 280px;
+        left: 20px;
+    }
+    .message-modal {
+        width: 430px;
+    }
+    .heading-name {
+        padding: 0 12px;
+    }
+    .heading-msg {
+        padding: 20px 20px;
+    }
+    .footer-modal {
+        display: flex;
+        justify-content: center;
+    }
+    .footer {
+        height: 9.3rem;
+    }
+    .footer-list {
+        padding: 16px 0;
+    }
+}

@@ -3,9 +3,9 @@
     --black-color: #000;
     --text-color: #333;
 
-    --width-content: 1200px;
     --header-height: 124px;
-    --main-height: 720px;
+    /* --main-height: 720px; */
+    --width-btn: 390px;
 }
 
 /* reset css */
@@ -26,7 +26,6 @@ body {
 }
 
 .container {
-    height: var(--main-height);
     display: flex;
     overflow: hidden;
     flex-direction: column;
@@ -71,7 +70,7 @@ body {
 /* Content */
 .content {
     width: 100%;
-    height: calc(var(--main-height) - var(--header-height) - 50px);
+    height: 54.5rem;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
@@ -131,8 +130,10 @@ body {
 
 /* Footer */
 .footer {
+    position: relative;
+    bottom: 0;
     width: 100%;
-    height: 50px;
+    height: 6rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -140,10 +141,10 @@ body {
     align-items: center;
     background-color: rgba(204, 204, 204, 0.5);
     overflow: hidden;
+    padding: 12px 0;
 }
 
 .footer-lisence {
-    height: 50%;
     font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
     font-weight: 300;
@@ -170,6 +171,7 @@ body {
     list-style: none;
     display: flex;
     justify-content: center;
+    margin-top: 3px;
 }
 
 .footer-item {

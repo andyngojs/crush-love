@@ -9,6 +9,7 @@ function start() {
 
     window.onload = () => {
         $('.music').play()
+        $('.music').volume = 0.6
     }
 
     window.onkeypress = (e) => {
