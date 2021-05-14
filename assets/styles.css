@@ -21,6 +21,10 @@ html {
     font-family: 'Pacifico', cursive;
 }
 
+body {
+    cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;
+}
+
 .container {
     height: var(--main-height);
     display: flex;
@@ -28,16 +32,19 @@ html {
     flex-direction: column;
     flex: 1;
     background-image: linear-gradient( to right, #cb5eee,#4be1ec);
-    animation: changeColor linear 2s;
+    animation: changeColor linear 5s;
+    -webkit-animation: changeColor linear 5s;
+    -moz-animation: changeColor linear 5s;
+    -o-animation: changeColor linear 5s;
     animation-iteration-count: infinite;
 }
 
 @keyframes changeColor {
     from {
-        background-image: linear-gradient( to top, #cb5eee,#4be1ec);
+        background-image: linear-gradient( to left, #cb5eee,#4be1ec);
     } 
     to {
-        background-image: linear-gradient( to right, #cb5eee,#4be1ec);
+        background-image: linear-gradient( to top, #cb5eee,#4be1ec);
     }
 }
 
@@ -77,8 +84,10 @@ html {
 .music-control {
     width: 100%;
     text-align: center;
-    opacity: .3;
-}
+    opacity: .2;
+    outline: none;
+    /* display: none; */
+} 
 
 .answer-question {
     width: 100%;
@@ -86,6 +95,7 @@ html {
     flex: 1;
     justify-content: space-evenly;
     align-items: center;
+    position: relative;
 }
 
 .btn {
@@ -101,7 +111,22 @@ html {
 } 
 
 .btn--yes {
-    cursor: pointer;
+    position: absolute;
+    top: 198px;
+    left: 350px;
+    cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;
+}
+
+.btn--no {
+    position: absolute;
+    top: 198px;
+    right: 160px;
+    cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;
+}
+
+.btn--yes:hover {
+    background-image: linear-gradient(to top right, #FF7C2C, #0BC799 );
+    color: var(--white-color);
 }
 
 /* Footer */
@@ -113,7 +138,7 @@ html {
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
-    background-color: #fdfdfd;
+    background-color: rgba(204, 204, 204, 0.5);
     overflow: hidden;
 }
 
@@ -137,6 +162,7 @@ html {
 
 .footer-link:hover {
     color: #108a6b;
+    cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;
 }
 
 .footer-list {
@@ -157,6 +183,10 @@ html {
     opacity: .8;
 }
 
+.footer-icon-link {
+    cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;
+}
+
 /* Modal */
 .modal {
     position: fixed;
@@ -164,28 +194,72 @@ html {
     right: 0;
     left: 0;
     bottom: 0;
-    display: flex;
+    display: none;
 }
 
-/* .show {
+.show {
     display: flex;
-} */
+}
 
 .modal__overlay {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: transparent;
 }
 
 .modal__body {
     margin: auto;
     position: relative;
     z-index: 1;
+    top: -10%;
 }
 
 .message-modal {
-    background-color: var(--white-color);
-    width: 500px;
+    background-color: #37CCFF;
+    width: 540px;
+    border-radius: 4px;
 
+}
+
+.heading-name {
+    padding: 18px 0 8px 16px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 50px;
+    border-bottom: 1px solid #888;
+}
+
+.heading-msg {
+    font-size: 1.4rem;
+    padding: 16px 16px;
+}
+
+.message {
+    line-height: 2.5rem;
+    text-align: justify;    
+}
+
+.footer-modal {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 16px 16px 0;
+}
+
+.btn-close {
+    width: 140px;
+    height: 40px;
+    font-size: 1.5rem;
+    border-radius: 12px;
+    cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;
+}
+
+.btn-close:hover {
+    opacity: .8;
+    color: var(--white-color);
+}
+
+.btn-icon {
+    margin-right: 8px;
 }
