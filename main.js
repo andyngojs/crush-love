@@ -3,6 +3,7 @@ function start() {
 
     var btnYes = $('.btn--yes')
     var btnNo = $('.btn--no')
+    var btnOpen = $('.btn--open')
     var popup = $('.modal')
     var overlay = $('.modal__overlay')
     var btnClose = $('.btn-close')
@@ -31,14 +32,14 @@ function start() {
     }
 
     btnNo.onmouseover = (e) => {
-        // console.log(e)
         var x = Math.floor(Math.random() * e.relatedTarget.clientHeight)
         var y = Math.floor(Math.random() * e.relatedTarget.clientWidth)
 
         btnNo.style.top = x + "px"
-        btnNo.style.left = y + "px"
+        btnNo.style.right = y + "px"
     }
 }
 
 
 start()
+

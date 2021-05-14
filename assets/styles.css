@@ -83,10 +83,10 @@ body {
 .music-control {
     width: 100%;
     text-align: center;
-    opacity: .2;
+    opacity: .3;
     outline: none;
-    /* display: none; */
 } 
+
 
 .answer-question {
     width: 100%;
@@ -140,7 +140,7 @@ body {
     text-align: center;
     align-items: center;
     background-color: rgba(204, 204, 204, 0.5);
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 12px 0;
 }
 
@@ -241,6 +241,7 @@ body {
 .message {
     line-height: 2.5rem;
     text-align: justify;    
+    color: var(--text-color);
 }
 
 .footer-modal {
