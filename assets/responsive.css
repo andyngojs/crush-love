@@ -1,17 +1,12 @@
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) { 
+@media (min-width: 740px) and (max-width: 1024px) {
     .container {
-        height: auto;
         overflow-x: hidden;
-    }
-    .header {
-        height: 150px
     }
     .header-name {
         font-size: 3.4rem;
     }
     .content {
-        height: 66rem;
     }
     .music-control {
         opacity: .1;
@@ -35,9 +30,9 @@
 }
 
 /* Mobile */
-@media (max-width: 739px) { 
+@media (max-width: 739px) {
     .header {
-        height: 100%;
+        height: 192px;
     }
     .header-name {
         font-size: 2.5rem;
@@ -50,8 +45,8 @@
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
     }
-    .music-control {
-        opacity: .1;
+    .content {
+        padding: 0;
     }
     .answer-question {
         display: flex;
@@ -83,9 +78,7 @@
         justify-content: center;
     }
     .footer {
-        height: 9.3rem;
-    }
-    .footer-list {
-        padding: 16px 0;
+        height: 6rem;
+        padding: 0;
     }
 }

@@ -10,7 +10,7 @@ function start() {
 
     window.onload = () => {
         $('.music').play()
-        $('.music').volume = 0.6
+        $('.music').volume = 1
     }
 
     window.onkeypress = (e) => {
@@ -34,12 +34,9 @@ function start() {
     btnNo.onmouseover = (e) => {
         var x = Math.floor(Math.random() * e.relatedTarget.clientHeight)
         var y = Math.floor(Math.random() * e.relatedTarget.clientWidth)
-
         btnNo.style.top = x + "px"
         btnNo.style.right = y + "px"
     }
 }
-
-
 start()
 
