@@ -103,7 +103,7 @@ body {
     width: 208px;
     height: 50px;
     border: none;
-    border-radius: 27px;
+    border-radius: 12px;
     background-image: linear-gradient(to right bottom, #FF7C2C, #0BC799 );
     font-size: 1.7rem;
     padding: 0 16px;
@@ -242,4 +242,64 @@ body {
 
 .btn-icon {
     margin-right: 8px;
+}
+
+/* Preloader */
+#preloader {
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:9999999; 
+	background-color: #0a66c2; 
+    opacity: 1;
+}
+
+.spinner {
+	position:absolute;
+	left:50%; /* centers the loading animation horizontally one the screen */
+	top:50%; /* centers the loading animation vertically one the screen */
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	font-size: 10px;
+	margin-left:-25px;
+}
+
+.spinner .dashed-loading {
+    position: relative;
+    height: 50px;
+  }
+
+.dashed-loading:after,
+.dashed-loading:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.dashed-loading:before {
+  /* z-index: 5; */
+  border: 3px dashed var(--white-color);
+  border-left: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  -webkit-animation: dashed 1s linear infinite;
+  animation: dashed 1s linear infinite;
+}
+.dashed-loading:after {
+  /* z-index: 10; */
+  border: 3px solid var(--white-color);
+  border-left: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  -webkit-animation: dashed 1s ease infinite;
+  animation: dashed 1s ease infinite;
+}
+@keyframes dashed {
+  to {
+    transform: rotate(360deg);
+  }
 }
