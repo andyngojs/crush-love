@@ -18,8 +18,11 @@ thì hãy đọc hướng dẫn sử dụng này.
 
 **Note**: Nếu các bạn không thích động tay động chân thì dùng luôn link demo ở phía trên.
 
-Nếu các bạn muốn thay đổi nội dung trang web thì hãy vào file <a href="./assets/js/main.js" >main.js</a> và thay đổi nội dung trong phần 
-`CONFIGDATA`
+Nếu các bạn muốn thay đổi nội dung trang web thì hãy vào file <a href="./assets/js/main.js" >main.js</a> và click vào icon cây bút để edit 
+
+thay đổi nội dung trong phần `CONFIGDATA`
+
+Sau khi thay đổi `CONFIGDATA`xong thì click vào button Commit change để lưu lại.
 
 Ở đây chúng ta dùng github page (nếu các bạn có host riêng thì đưa source code này lên host của bạn).
 
