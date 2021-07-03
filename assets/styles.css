@@ -38,10 +38,10 @@ body {
     flex-direction: column;
     flex: 1;
     background-image: linear-gradient( to right top, #cb5eee,#4be1ec);
-    animation: changeColor linear 2s;
-    -webkit-animation: changeColor linear 2s;
-    -moz-animation: changeColor linear 2s;
-    -o-animation: changeColor linear 1s;
+    animation: changeColor linear 4s;
+    -webkit-animation: changeColor linear 4s;
+    -moz-animation: changeColor linear 4s;
+    -o-animation: changeColor linear 4s;
     animation-iteration-count: infinite;
 }
 
@@ -203,11 +203,11 @@ body {
 
 .heading-name {
     padding: 18px 0 8px 16px;
-    font-size: 1.6rem;
-    font-weight: 400;
+    font-size: 2.4rem;
+    font-weight: bolder;
     color: var(--text-color);
     line-height: 50px;
-    border-bottom: 1px solid #888;
+    border-bottom: 1px solid var(--black-color);
 }
 
 .heading-msg {
