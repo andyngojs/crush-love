@@ -1,10 +1,10 @@
 :root {
-    --white-color: #fff;
-    --black-color: #000;
-    --text-color: #333;
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
 
-    --header-height: 124px;
-    --width-btn: 340px;
+  --header-height: 124px;
+  --width-btn: 340px;
 }
 
 /* reset css */
@@ -15,262 +15,261 @@
 }
 
 html {
-    font-size: 62.5%;
-    line-height: 1.6rem;
-    font-family: 'Pacifico', cursive;
-    height: 100vh;
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Pacifico", cursive;
+  height: 100vh;
 }
 
 html::-webkit-scrollbar {
-    width: 2px;
-    background-color: #ccc;
+  width: 2px;
+  background-color: #ccc;
 }
 
 body {
-    height: 100%;
-    cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;
+  height: 100%;
+  cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;
 }
 
 .container {
-    height: 100%;
-    display: flex;
-    overflow: hidden;
-    flex-direction: column;
-    flex: 1;
-    background-image: linear-gradient( to right top, #cb5eee,#4be1ec);
-    animation: changeColor linear 4s;
-    -webkit-animation: changeColor linear 4s;
-    -moz-animation: changeColor linear 4s;
-    -o-animation: changeColor linear 4s;
-    animation-iteration-count: infinite;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  flex: 1;
+  background-image: linear-gradient(to right top, #cb5eee, #4be1ec);
+  animation: changeColor 4s ease-in-out;
+  -webkit-animation: changeColor 4s ease-in-out;
+  -moz-animation: changeColor 4s ease-in-out;
+  -o-animation: changeColor 4s ease-in-out;
+  animation-iteration-count: infinite;
 }
 
 @keyframes changeColor {
-    from {
-        background-image: linear-gradient( to left, #cb5eee,#4be1ec);
-    } 
-    to {
-        background-image: linear-gradient( to top, #cb5eee,#4be1ec);
-    }
+  from {
+    background-image: linear-gradient(to left, #cb5eee, #4be1ec);
+  }
+  to {
+    background-image: linear-gradient(to top, #cb5eee, #4be1ec);
+  }
 }
 
 /* Header */
 .header {
-    height: var(--header-height);
-    text-align: center;
+  height: var(--header-height);
+  text-align: center;
 }
 
 .header-name {
-    margin: 0;
-    font-size: 4rem;
-    color: var(--text-color);
-    padding: 20px 0;
+  margin: 0;
+  font-size: 4rem;
+  color: var(--text-color);
+  padding: 20px 0;
 }
 
 .header-description {
-    font-size: 2rem;
-    color: var(--text-color);
-    padding: 10px 0;
-    font-weight: 400;
+  font-size: 2rem;
+  color: var(--text-color);
+  padding: 10px 0;
+  font-weight: 400;
 }
 
 /* Content */
 .content {
-    height: calc(100% - var(--header-height));
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
+  height: calc(100% - var(--header-height));
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
 }
 
 .music-control {
-    text-align: center;
-    outline: none;
-    display: none;
-} 
+  text-align: center;
+  outline: none;
+  display: none;
+}
 
 .answer-question {
-    width: 100%;
-    display: flex;
-    flex: 1;
-    justify-content: space-evenly;
-    align-items: center;
-    position: relative;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
 }
 
 .btn {
-    width: 208px;
-    height: 50px;
-    border: none;
-    border-radius: 12px;
-    background-image: linear-gradient(to right bottom, #FF7C2C, #0BC799 );
-    font-size: 1.7rem;
-    padding: 0 16px;
-    color: var(--text-color);
-    outline: none;
-} 
+  width: 208px;
+  height: 50px;
+  border: none;
+  border-radius: 12px;
+  background-image: linear-gradient(to right bottom, #ff7c2c, #0bc799);
+  font-size: 1.7rem;
+  padding: 0 16px;
+  color: var(--text-color);
+  outline: none;
+}
 
 .btn--yes {
-    position: absolute;
-    top: 198px;
-    left: 420px;
-    cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;
+  position: absolute;
+  top: 198px;
+  left: 420px;
+  cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;
 }
 
 .btn--no {
-    position: absolute;
-    top: 198px;
-    right: 420px;
-    cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;
+  position: absolute;
+  top: 198px;
+  right: 420px;
+  cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;
 }
 
 .btn--yes:hover {
-    background-image: linear-gradient(to top right, #FF7C2C, #0BC799 );
-    color: var(--white-color);
+  background-image: linear-gradient(to top right, #ff7c2c, #0bc799);
+  color: var(--white-color);
 }
 
 /* Footer */
 .footer {
-    position: relative;
-    bottom: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    text-align: center;
-    align-items: center;
-    background-color: rgba(204, 204, 204, 0.5);
-    /* overflow: hidden; */
-    padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(204, 204, 204, 0.5);
+  /* overflow: hidden; */
+  padding: 10px 0;
 }
 
 .footer-lisence {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.3rem;
-    font-weight: 300;
-    color: var(--text-color);
-    display: inline-block;
-    opacity: .9;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: var(--text-color);
+  display: inline-block;
+  opacity: 0.9;
 }
 
 .footer-link {
-    text-decoration: none;
-    color: var(--text-color);
-    display: inline-block;
-    font-weight: 300;
-    font-style: oblique;
+  text-decoration: none;
+  color: var(--text-color);
+  display: inline-block;
+  font-weight: 300;
+  font-style: oblique;
 }
 
 .footer-link:hover {
-    color: #108a6b;
-    cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;
+  color: #108a6b;
+  cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;
 }
 
 /* Modal */
 .modal {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
 }
 
 .show {
-    display: flex;
+  display: flex;
 }
 
 .modal__overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
 }
 
 .modal__body {
-    margin: auto;
-    position: relative;
-    z-index: 1;
-    top: -10%;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  top: -10%;
 }
 
 .message-modal {
-    background-color: #37CCFF;
-    width: 540px;
-    border-radius: 4px;
-
+  background-color: #37ccff;
+  width: 540px;
+  border-radius: 4px;
 }
 
 .heading-name {
-    padding: 18px 0 8px 16px;
-    font-size: 2.4rem;
-    font-weight: bolder;
-    color: var(--text-color);
-    line-height: 50px;
-    border-bottom: 1px solid var(--black-color);
+  padding: 18px 0 8px 16px;
+  font-size: 2.4rem;
+  font-weight: bolder;
+  color: var(--text-color);
+  line-height: 50px;
+  border-bottom: 1px solid var(--black-color);
 }
 
 .heading-msg {
-    font-size: 1.4rem;
-    padding: 16px 16px;
+  font-size: 1.4rem;
+  padding: 16px 16px;
 }
 
 .message {
-    line-height: 2.5rem;
-    text-align: justify;    
-    color: var(--text-color);
+  line-height: 2.5rem;
+  text-align: justify;
+  color: var(--text-color);
 }
 
 .footer-modal {
-    display: flex;
-    justify-content: flex-end;
-    padding: 0 16px 16px 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 16px 16px 0;
 }
 
 .btn-close {
-    width: 140px;
-    height: 40px;
-    font-size: 1.5rem;
-    border-radius: 12px;
-    cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;
+  width: 140px;
+  height: 40px;
+  font-size: 1.5rem;
+  border-radius: 12px;
+  cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;
 }
 
 .btn-close:hover {
-    opacity: .8;
-    color: var(--white-color);
+  opacity: 0.8;
+  color: var(--white-color);
 }
 
 .btn-icon {
-    margin-right: 8px;
+  margin-right: 8px;
 }
 
 /* Preloader */
 #preloader {
-	position: fixed;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	z-index:9999999; 
-	background-color: #0a66c2; 
-    opacity: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999999;
+  background-color: #0a66c2;
+  opacity: 1;
 }
 
 .spinner {
-	position:absolute;
-	left:50%; /* centers the loading animation horizontally one the screen */
-	top:50%; /* centers the loading animation vertically one the screen */
-	width: 50px;
-	height: 30px;
-	text-align: center;
-	font-size: 10px;
-	margin-left:-25px;
+  position: absolute;
+  left: 50%; /* centers the loading animation horizontally one the screen */
+  top: 50%; /* centers the loading animation vertically one the screen */
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  font-size: 10px;
+  margin-left: -25px;
 }
 
 .spinner .dashed-loading {
-    position: relative;
-    height: 50px;
-  }
+  position: relative;
+  height: 50px;
+}
 
 .dashed-loading:after,
 .dashed-loading:before {
