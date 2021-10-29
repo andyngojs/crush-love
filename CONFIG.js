@@ -1,10 +1,10 @@
 const CONFIGDATA = {
   titleHeader: "Yêu em không anh Cò ơiiii ",
   descriptionHeader:
-    "Một là trả lời hai là ăn đấm nha",
-  buttonYes: "Có! Yêu quá chời",
+    "Nếu anh thoát ra và không trả lời thì có em chôn sống anh nhaaa ",
+  buttonYes: "Đồng Ý",
   buttonNo: "Không! Còn lâu nhé.",
-  titleModar: "Có là đúng quy trình yêu em luônn",
+  titleModar: "Đó đồng ý là có được em nè",
 descriptionModar:
 ' Yêu anh nhiềuuu  "',
 };
