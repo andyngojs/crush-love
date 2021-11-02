@@ -3,7 +3,7 @@ const CONFIGDATA = {
   descriptionHeader:
     "Nếu cậu thoát ra và không trả lời thì có nghĩa là cậu đã ĐỒNG Ý rồi đấy ^^",
   endHeader: 
-    "created by Phi Long",
+    "created by PhiLong",
   buttonYes: "Đồng Ý",
   buttonNo: "Không! Còn lâu nhé.",
   titleModar: "Cảm ơn em vì đồng ý",
