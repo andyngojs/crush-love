@@ -20,7 +20,7 @@ Bước 1: Click vào `Fork` để clone repo này về github của bạn.
 
 Bước 2: Vào trang cá nhân github của bạn và chuyển sang tab Repositories. Sẽ nhìn thấy repo mà bạn vừa Fork về và click vào repo đó
 
-Bước 3: Vào file <a href="./CONFIG.js" >CONFIG.js</a> và click vào icon cây bút để edit thay đổi nội dung trong phần `CONFIGDATA`
+Bước 3: Vào file CONFIG.js và click vào icon cây bút để edit thay đổi nội dung trong phần `CONFIGDATA`
 
 Sau khi thay đổi xong thì lướt xuống dưới và click vào Commit change để lưu lại.
 
