@@ -1,0 +1,10 @@
+const CONFIGDATA = {
+  titleHeader: "Tính chị láo quá để em chịu thiệt em ưng chị cho nha",
+  descriptionHeader:
+    "Chị thoát ra và không trả lời thì có nghĩa là chị đã ĐỒNG Ý rồi đấy ^^",
+  buttonYes: "Đồng Ý",
+  buttonNo: "Không! Ai rảnh.",
+  titleModar: "Để em chịu khổ thay mấy chú cho <3",
+  descriptionModar:
+    'hí hí, qua h hơi hổng ưa mà chắc chị cũng hổng ưa :))) chờ 15p rep cái tin chưa ngủ bà mất ròi ^^ </br> sáng đi ăn sáng đê </br> "  không đi em tự đến nhà chị chờ đấy "',
+};
