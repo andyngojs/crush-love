@@ -27,4 +27,4 @@ Ngồi chờ 5 phút đợi web của bạn tải lên sau đó sẽ hiện link
 
 Chúc các bạn thành công!
 
-Nếu như thấy hay thì hãy STAR repo này và tham gia nhóm facebook trên nhé.. Cảm ơn!
+Nếu như thấy hay thì hãy follow mình và cho mình star nhé.. Thanks so much!
