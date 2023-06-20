@@ -1,6 +1,8 @@
-// Author: andyngojs
-// Facebook: http://fb.com/dn279
-// Join us: https://fb.com/groups/dobeeteam.community
+/**
+ * @author Đông Ngô <dongngo.2000@gmail.com>
+ * 
+ */
+
 // Không được thay đổi ở đây - Not to change
 $(document).ready(function () {
   setTimeout(function () {
@@ -38,7 +40,7 @@ function start() {
             <i class="ti-face-smile"></i>
         </p>`;
   btnYes.innerHTML = `<i class="ti-thumb-up"></i> ${CONFIGDATA.buttonYes}`;
-  btnNo.innerHTML = ` <i class="ti-thumb-down"></i> ${CONFIGDATA.buttonNo}`;
+  btnNo.innerHTML = `<i class="ti-thumb-down"></i> ${CONFIGDATA.buttonNo}`;
   headerModar.innerHTML = `${CONFIGDATA.titleModar} <i class="ti-heart"></i>`;
   desccriptionModar.innerHTML = `${CONFIGDATA.descriptionModar}`;
 

@@ -1,11 +1,10 @@
 # Trang web tỏ tình crush cực kỳ lãng mạn
 
-Link Demo: https://j2c.cc/LOVE-CRUSH
+Link Demo: https://andyngojs.github.io/crush-love
 
 ## Author
 
 **Facebook**: <a href="http://fb.com/dn279">andyngojs</a>
-
 
 ## Cách sử dụng:
 
