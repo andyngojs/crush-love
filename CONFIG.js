@@ -1,10 +1,10 @@
 const CONFIGDATA = {
-  titleHeader: "Chào cậu, tớ có điều muốn nói. </br> Làm người yêu tớ nhé!",
+  titleHeader: "Con chào mẹ, con có điều muốn nói. </br> Con chúc mẹ mau khỏi bệnh nhé ạ",
   descriptionHeader:
-    "Hãy trả lời một cách thật lòng nhé. Nếu cậu im lặng và rời đi thì tức là cậu đã ĐỒNG Ý.",
-  buttonYes: "Tớ đồng ý",
+    "Tuy đây không phải ngành học của con nhưng con đã cố gắng tìm tòi và làm ra sản phẩm này. Mẹ ấn ĐỒNG Ý để xem nhé ạ",
+  buttonYes: "Mẹ đồng ý",
   buttonNo: "Không đồng ý",
-  titleModar: "Cảm ơn cậu.",
+  titleModar: "Mẹ yêu của con",
   descriptionModar:
-    "Cảm ơn cậu đã cho tớ một cơ hội để tớ có thể ở bên cạnh, che chở và bảo vệ cậu. </br> Tớ biết tớ không được đẹp trai, cũng chẳng lắm tài nhưng tớ có một trái tim chân thành. Cậu chính là cả thế giới của tớ. </br> Tối nay tớ sẽ đến đón cậu. Cậu mặc thật đẹp vào nhé! Sẽ có một bất ngờ dành cho cậu.</br> Love you <3",
+    "Ngày 20/10 năm nay thật đặc biệt khi đã là năm thứ 2 con xa nhà và cũng là vì mẹ đang bị bệnh. </br> Con không biết chúc mẹ gì hơn ngoài sức khỏe, mẹ được sống hạnh phúc và thuận lợi trong công việc. </br> Tối nay bố con con sẽ có 1 bữa tiệc nho nhỏ để chúc mừng ngày của Mẹ cũng như là sinh nhật em Quang. Con mong Mẹ sẽ được tận hưởng nó 1 cách trọn vẹn nhất. </br> Love you mom <3",
 };
