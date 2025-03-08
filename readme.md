@@ -5,7 +5,7 @@ Link Demo: https://andyngojs.github.io/crush-love
 ## Connect with us
 Nếu trong quá trình gặp lỗi, các bạn join cộng đồng trên Discord để được support nhé!
 
-**Discord**: [DOBEETEAM Community](https://discord.gg/uVTGzxKFFk)
+**Discord**: [DOBEETEAM Community](https://discord.gg/sSUR4Yb9Sp)
 
 ## Cách sử dụng:
 
